@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Trivia Game</title>
+    <!-- reset css -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- bootswatch cdn -->
+    <link href="https://stackpath.bootstrapcdn.com/bootswatch/4.3.1/cosmo/bootstrap.min.css" rel="stylesheet" integrity="sha384-uhut8PejFZO8994oEgm/ZfAv0mW1/b83nczZzSwElbeILxwkN491YQXsCFTE6+nx" crossorigin="anonymous">
+    <!-- style css -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    
+    <!-- alert message -->
+    <div class="alert alert-light text-center alert-dismissible fade show" role="alert">
+        <strong>Welcome to the Dental Hygiene Trivia Game!</strong>  Play to test your knowledge on proper Dental Home Care!
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+            </button>
+    </div>
+    
+
+    <!-- intro backdrop -->
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <img src="./assets/images/backdrop.jpg" alt="trivia game backdrop" class="large">
+            <div id="choices" class="text-center">
+                <button id="start" class="btn btn-outline-secondary btn-lg rounded-pill m-3 align-middle px-5 ">Start Game</button>
+                <div id="options"></div>
+            </div>    
+        </div>
+    </div>
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <section class="theme text-center">
+                    <h2>Something sweet that won't hurt your teeth!</h2>           
+                    <audio id="myAudio">
+                        <source src="assets\mp3\2019-02-07_-_Goofy_Prank_-_www.fesliyanstudios.com_-_David_Renda.mp3" type="audio/mp3">
+                            Your browser does not support the audio element.
+                    </audio>
+                        
+                    <button onclick="playAudio()" type="button" class="btn btn-outline-secondary btn-lg rounded-pill m-3 px-5">PLAY</button>
+                    <button onclick="pauseAudio()" type="button" class="btn btn-outline-secondary btn-lg rounded-pill m-3 px-5">STOP</button> 
+                </section>        
+            </div>
+        </div>
+    </div>
+    
+
+    <!-- Time Remaining -->
+    <div class="container">
+        <div class="row">
+            <div class="col bg-light text-dark my-4 pt-4 text-center">
+                <div id="time"></div>
+            </div>
+        </div>
+    </div>
+    
+
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <!-- Questions & Answers -->
+                <div id="question1"></div>
+                <div id="answer1"></div>
+                <div id="question2"></div>
+                <div id="answer2"></div>
+                <div id="question3"></div>
+                <div id="answer3"></div>
+                <div id="question4"></div>
+                <div id="answer4"></div>
+                <div id="question5"></div>
+                <div id="answer5"></div>
+                <div id="question6"></div>
+                <div id="answer6"></div>
+                <div id="question7"></div>
+                <div id="answer7"></div>
+                <div id="question8"></div>
+                <div id="answer8"></div>
+                <div id="submit"></div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col bg-light text-dark my-4 py-4 text-center">
+                <!-- Results -->
+                <div id="resultsMessage"></div>
+                <div id="correct"></div>
+                <div id="incorrect"></div>
+                <div id="unanswered"></div>
+            </div>
+        </div>
+    </div>
+        
+
+    <div class="text-center">
+        <button id="done" class="btn btn btn-outline-secondary btn-lg rounded-pill m-3 px-5">End Game</button>
+    </div>
+
+
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container text-center">
+            <p> Copyright &copy; </p>
+        </div>    
+    </div>
+    
+
+
+
+
+<!-- jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- bootstrap js -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script> 
+    <!--bootstrap js bundle  -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js" integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o" crossorigin="anonymous"></script>
+    <!-- js -->
+    <script src="assets/javascript/app.js"></script>
+</body>
+</html>
