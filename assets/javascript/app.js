@@ -65,7 +65,7 @@ $("#start").on("click", function() {
     // Start timer countdown
     run();
    
-    // Display questions --- I still want to turn this into a reusable piece so that i don't have to repeat this section for each question
+    // Display questions
     // Question 1
     $("#question1").html("<h3>" + questions[0].question + "</h3>");
     $("#answer1").html("<input type='radio' name='answer1' value='0'>" + "<label>" + questions[0].answerList[0] + "</label>"
@@ -203,7 +203,7 @@ function displayResults() {
     $("#unanswered").html("Unanswered: " + unanswered);
 }
 
-// Function keeps score in terms of correct, incorrect, and unanswered --- I still want to make this a reusable piece so that I don't have to repeat it for each question
+// Function keeps score in terms of correct, incorrect, and unanswered 
 function keepingScore() {
 
     var userAnswer1 = $("input[name='answer1']:checked").val();
