@@ -42,7 +42,7 @@ var questions = [{
     answer: 1
 },{
     question: "According to studies, it was found that_________ played a greater role in causing cavities.",
-    answerList: ["nothing", "eating at designated mealtimes", "frequent snacking", "a vegetarian diet"],
+    answerList: ["nonvegetarian diet", "eating at designated mealtimes", "frequent snacking", "a vegetarian diet"],
     answer: 2
 },{
   question: "What type of toothbrush bristle should you use to brush your teeth?",
