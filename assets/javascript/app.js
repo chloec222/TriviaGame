@@ -34,7 +34,7 @@ var questions = [{
     answer: 3
 },{
     question: "Which of these is not a reason why dry mouth (halitosis) is bad for oral health ?",
-    answerList: ["The bacteria buildup causes bad breath", "Low saliva content decreases the protective coating over teeth & oral cavity", "Lowers pH level of the mouth which is bad for oral health", "It is actually a good excuse to buy mints"],
+    answerList: ["The bacterial buildup causes bad breath", "Low saliva content decreases the protective coating over teeth & oral cavity", "Lowers pH level of the mouth which is bad for oral health", "It is actually a good excuse to buy mints"],
     answer: 3
 },{
     question: "What can you use if you are unable to take fluoride for health reasons?",
