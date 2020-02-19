@@ -1,6 +1,7 @@
 # TRIVIA GAME
 ### Overview
 A simple informative trivia game that is based on oral and dental health
+Link: https://chloec222.github.io/TriviaGame/
 
 --------------------------------------------------------------------------------------------------------------------------------------
 
